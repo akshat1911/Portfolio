@@ -39,7 +39,7 @@ const About = () => {
               className="text-lg text-gray-600 dark:text-gray-300"
               variants={fadeIn('right', 0.2)}
             >
-              I'm a passionate Full Stack Developer with a strong foundation in web technologies
+              I&apos;m a passionate Full Stack Developer with a strong foundation in web technologies
               and a keen eye for creating beautiful, functional user experiences.
             </motion.p>
             <motion.p 

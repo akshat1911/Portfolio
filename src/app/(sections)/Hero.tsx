@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { fadeIn, slideIn, scaleIn } from '@/utils/animations';
+import { fadeIn } from '@/utils/animations';
 
 const Hero = () => {
   const [text, setText] = useState('');
@@ -36,7 +36,7 @@ const Hero = () => {
             className="block"
             variants={fadeIn('up', 0.4)}
           >
-            Hello, I'm
+            Hello, I&apos;m
           </motion.span>
           <motion.span 
             className="block text-blue-600 dark:text-blue-400"
@@ -123,4 +123,4 @@ const Hero = () => {
   );
 };
 
-export default Hero; 
+export default Hero;

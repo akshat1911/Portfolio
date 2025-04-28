@@ -31,7 +31,7 @@ const Contact = () => {
       await new Promise(resolve => setTimeout(resolve, 1500));
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -244,7 +244,7 @@ const Contact = () => {
                     animate={{ opacity: 1, y: 0 }}
                     className="p-4 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-md"
                   >
-                    Thank you for your message! I'll get back to you soon.
+                    Thank you for your message! I&apos;ll get back to you soon.
                   </motion.div>
                 )}
 
